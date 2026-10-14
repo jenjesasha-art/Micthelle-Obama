@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 24px;
+	background: #f5f2ee;
+	color: #302d2b;
+	font: 16px/1.6 Arial, sans-serif;
+}
+
+main {
+	max-width: 720px;
+	margin: 36px auto;
+	padding: 32px;
+	background: #fff;
+}
+
+h1
+{
+	color: #603c50;
+}
+
+h1 {
+	margin: 0 0 12px;
+	font-size: 2rem;
+}
+
+
+p {
+	margin: 10px 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 20px 0;
+	border-radius: 12px;
+}
+
+@media (max-width: 540px) {
+	body {
+		padding: 12px;
+	}
+
+	main {
+		margin: 12px auto;
+		padding: 22px;
+	}
+}
